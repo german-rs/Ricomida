@@ -66,6 +66,45 @@ body{
 /* Fin sección de héroe. */
 
 
-/* Carrusel. */
 
+/* Carrusel. */
 /* Fin carrusel. */
+
+/* Sección de ingredientes y preparación. */
+/* Fin sección de ingredientes y preparación. */
+
+/* Sección de recetas relacionadas [cards]. */
+/* Fin sección de recetas relacionadas [cards]. */
+
+
+/* Sección de suscripción. */
+#sec-suscripcion{
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+#sec-suscripcion h2{
+    font-size: 40px;
+}
+
+#sec-suscripcion span{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.marca{
+    font-family: "Lobster";
+}
+/* Fin sección de suscripción. */
+
+
+/* Pie de página. */
+#pie-pagina{
+    background: #373A3C;
+}
+
+#pie-pagina p{
+    font-family: "Lobster";
+    font-size: 26pt;
+}
+/* Fin pie de página. */
