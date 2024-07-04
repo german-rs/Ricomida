@@ -29,10 +29,43 @@ body{
 
 /* Barra de navegación. */
 .navbar{
-    background:var(--danger);
-    /* background: #373a3c; */
+    background: #373a3c;
 }
 
 .navbar-brand{
     font-family: "Lobster";
+    font-size: 26pt;
 }
+/* Fin barra de navegación. */
+
+
+/* Sección de héroe. */
+.imagen-principal img{
+    width: 462pt;
+    height: auto;
+}
+
+.titulo-principal{
+    width: 425px;
+    height: auto;
+}
+
+.titulo-principal h1{
+    font-size: 30pt;
+    color: #373a3c;
+}
+
+.linea{
+    width: 462pt;
+}
+
+.caracteristicas h3{
+    font-size: 20pt;
+    color: #373a3c;
+}
+/* Fin sección de héroe. */
+
+
+/* Carrusel. */
+
+/* Fin carrusel. */
