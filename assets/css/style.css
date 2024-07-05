@@ -41,13 +41,12 @@ body{
 
 /* Sección de héroe. */
 .imagen-principal img{
-    width: 462pt;
+    width: 600px;
     height: auto;
 }
 
-.titulo-principal{
-    width: 425px;
-    height: auto;
+.envoltorio{
+    width: 600px;
 }
 
 .titulo-principal h1{
@@ -71,6 +70,17 @@ body{
 /* Fin carrusel. */
 
 /* Sección de ingredientes y preparación. */
+.ingredientes h4{
+    margin: 1em 0;
+}
+
+.ingredientes ul li{
+    list-style: none;
+}
+
+.preparacion ol li{
+    margin-bottom: 1em;
+}
 /* Fin sección de ingredientes y preparación. */
 
 /* Sección de recetas relacionadas [cards]. */
@@ -81,10 +91,17 @@ body{
 #sec-suscripcion{
     background-color: var(--danger);
     color: var(--white);
+    width: 100%;
+    height: 500px;
 }
 
 #sec-suscripcion h2{
     font-size: 40px;
+}
+
+#sec-suscripcion p{
+    font-size: 30px;
+    font-weight: 400;
 }
 
 #sec-suscripcion span{
