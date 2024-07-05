@@ -58,7 +58,7 @@ body{
     width: 462pt;
 }
 
-.caracteristicas h3{
+.caracteristicas h2{
     font-size: 20pt;
     color: #373a3c;
 }
@@ -67,6 +67,18 @@ body{
 
 
 /* Carrusel. */
+.carousel-indicators li{
+    border-radius: 50%;
+    background-color: #373A3C !important;
+    width: 11px !important;
+    height: 11px !important;
+    list-style: none;
+}
+
+.carousel-indicators{
+    top:105%;
+}
+
 /* Fin carrusel. */
 
 /* Sección de ingredientes y preparación. */
