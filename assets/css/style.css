@@ -50,12 +50,13 @@ body{
 }
 
 .titulo-principal h1{
+    width: 400px;
     font-size: 30pt;
     color: #373a3c;
 }
 
 .linea{
-    width: 462pt;
+     width: 462pt; 
 }
 
 .caracteristicas h2{
@@ -67,6 +68,10 @@ body{
 
 
 /* Carrusel. */
+.contenedor-carrusel{
+    width: 1300px;
+}
+
 .carousel-indicators li{
     border-radius: 50%;
     background-color: #373A3C !important;
@@ -78,10 +83,18 @@ body{
 .carousel-indicators{
     top:105%;
 }
-
 /* Fin carrusel. */
 
+
 /* Sección de ingredientes y preparación. */
+#sec-ing-pre h3{
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 2px solid #373A3C;
+    padding-bottom: 10px;
+    width: 270px;
+}
+
 .ingredientes h4{
     margin: 1em 0;
 }
@@ -90,12 +103,28 @@ body{
     list-style: none;
 }
 
+
 .preparacion ol li{
     margin-bottom: 1em;
 }
 /* Fin sección de ingredientes y preparación. */
 
+
 /* Sección de recetas relacionadas [cards]. */
+#recetas-rel h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.card-body h5{
+    font-size: 23pt;
+    font-weight: 700;
+}
+
+.card-body p{
+    font-size: 16pt;
+    font-weight: 400;
+}
 /* Fin sección de recetas relacionadas [cards]. */
 
 
@@ -105,10 +134,25 @@ body{
     color: var(--white);
     width: 100%;
     height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.elementos-suscripcion, h2, p, button{
+    padding: 0.5em;
+}
+
+.elementos-suscripcion button{
+    font-size: 16pt;
+    font-weight: 400;
 }
 
 #sec-suscripcion h2{
     font-size: 40px;
+    font-weight: 700;
 }
 
 #sec-suscripcion p{
